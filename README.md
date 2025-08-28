@@ -1,16 +1,445 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>รับซื้อตั๋วจำนำทอง อุดรธานี | ราคาดี ได้เงินเร็ว - By คุณต๋อง</title>
+    <meta name="description" content="รับซื้อตั๋วจำนำทองและสินทรัพย์มีค่าทุกประเภทในอุดรธานีและจังหวัดใกล้เคียง ให้ราคาสูง ยุติธรรม บริการรวดเร็ว ได้เงินสดทันที ประเมินราคาออนไลน์ฟรี!">
+    <meta name="keywords" content="รับซื้อตั๋วจำนำ, รับซื้อตั๋วจำนำทอง, ตั๋วจำนำ, อุดรธานี, ขอนแก่น, หนองคาย, หนองบัวลำภู, ขายตั๋วจำนำ, ไถ่ถอนทอง, Golden18 Udon, คุณต๋อง">
+    <meta name="author" content="รับซื้อตั๋วจำนำทอง By คุณต๋อง (Golden18 Udon)">
+    <link rel="canonical" href="https://sites.google.com/view/golden18udon/home">
 
-<!--
-**gold18udon/gold18udon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sites.google.com/view/golden18udon/home">
+    <meta property="og:title" content="รับซื้อตั๋วจำนำทอง อุดรธานี | ราคาดี ได้เงินเร็ว - By คุณต๋อง">
+    <meta property="og:description" content="บริการรับซื้อตั๋วจำนำทองและสินทรัพย์มีค่าทุกประเภทในอุดรธานี ให้ราคาสูงและยุติธรรม ประเมินราคาฟรี!">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/gGfam9UDwH3yGz3tlSCKE0zkkF7eSo30w431G4m-we5gdSUigPAEgDarp_jGXp4Ha-5IZNV2JBd56OXnfyIIUpM6P8eruxWeEZKAfGZlqwDG92eZgq0tYZj2c8SKtUWuV_EDYHtCaO8=w16383">
 
-Here are some ideas to get you started:
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sites.google.com/view/golden18udon/home">
+    <meta property="twitter:title" content="รับซื้อตั๋วจำนำทอง อุดรธานี | ราคาดี ได้เงินเร็ว - By คุณต๋อง">
+    <meta property="twitter:description" content="บริการรับซื้อตั๋วจำนำทองและสินทรัพย์มีค่าทุกประเภทในอุดรธานี ให้ราคาสูงและยุติธรรม ประเมินราคาฟรี!">
+    <meta property="twitter:image" content="https://lh3.googleusercontent.com/gGfam9UDwH3yGz3tlSCKE0zkkF7eSo30w431G4m-we5gdSUigPAEgDarp_jGXp4Ha-5IZNV2JBd56OXnfyIIUpM6P8eruxWeEZKAfGZlqwDG92eZgq0tYZj2c8SKtUWuV_EDYHtCaO8=w16383">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts: Kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "รับซื้อตั๋วจำนำทอง By คุณต๋อง (Golden18 Udon)",
+      "image": "https://lh4.googleusercontent.com/tjdaNU3zTYKCjD65dSa5sAvdhuezYoEJBTIuIU7SQkUkAe91ESPvNk0MUVSR6-BL9xlB_iDaJ9DzC9AqMPR9DscVEtb3vjg0ITw2xQpIzxMs0qN5SiibAaLBpMs_efae6lVvV0kQIMc6AR3fCGioequrXyZ3Pw4-Ftjd",
+      "@id": "https://sites.google.com/view/golden18udon/home",
+      "url": "https://sites.google.com/view/golden18udon/home",
+      "telephone": "+66991013426",
+      "priceRange": "฿฿",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "188/405 ถ.ศรีชมชื่น, ต.หมากแข้ง",
+        "addressLocality": "อ.เมือง",
+        "addressRegion": "อุดรธานี",
+        "postalCode": "41000",
+        "addressCountry": "TH"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "17:30"
+      },
+      "sameAs": ["https://lin.ee/4WGZnHX","https://web.facebook.com/Gold18udon","https://www.instagram.com/gold18udon","https://www.youtube.com/@gold18udon"]
+    }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #F8F2DE; /* รอง3 */
+            color: #A31D1D; /* รอง1 */
+        }
+        .bg-primary { background-color: #ECDCBF; } /* รอง2 */
+        .bg-secondary { background-color: #ffffff; } /* White */
+        .bg-accent { background-color: #D84040; } /* หลัก */
+        .text-accent { color: #D84040; } /* หลัก */
+        .text-dark-red { color: #A31D1D; } /* รอง1 */
+        .btn-primary {
+            background-color: #D84040; /* หลัก */
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #A31D1D; /* รอง1 */
+            box-shadow: 0 8px 25px -5px rgba(216, 64, 64, 0.4), 0 10px 10px -5px rgba(216, 64, 64, 0.2);
+        }
+        .line-button {
+            background-color: #25D366; /* LINE Green */
+            color: #ffffff;
+        }
+        .line-button:hover {
+            background-color: #1DA851; /* Darker LINE Green */
+        }
+        .gemini-loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #D84040;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-secondary shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center space-x-3">
+                <img src="https://lh4.googleusercontent.com/tjdaNU3zTYKCjD65dSa5sAvdhuezYoEJBTIuIU7SQkUkAe91ESPvNk0MUVSR6-BL9xlB_iDaJ9DzC9AqMPR9DscVEtb3vjg0ITw2xQpIzxMs0qN5SiibAaLBpMs_efae6lVvV0kQIMc6AR3fCGioequrXyZ3Pw4-Ftjd" alt="Logo ร้านรับซื้อตั๋วจำนำทอง By คุณต๋อง" class="h-10 w-10 rounded-full object-cover">
+                <h1 class="text-base md:text-lg font-semibold text-gray-800">By คุณต๋อง</h1>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
+                <a href="#about" class="hover:text-accent transition duration-300">เกี่ยวกับเรา</a>
+                <a href="#appraisal" class="hover:text-accent transition duration-300">ประเมินราคา</a>
+                <a href="#steps" class="hover:text-accent transition duration-300">ขั้นตอน</a>
+                <a href="#contact" class="hover:text-accent transition duration-300">ติดต่อเรา</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800 text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-secondary border-t border-gray-200">
+            <a href="#about" class="block py-3 px-6 text-gray-700 hover:bg-primary hover:text-gray-800">เกี่ยวกับเรา</a>
+            <a href="#appraisal" class="block py-3 px-6 text-gray-700 hover:bg-primary hover:text-gray-800">ประเมินราคา</a>
+            <a href="#steps" class="block py-3 px-6 text-gray-700 hover:bg-primary hover:text-gray-800">ขั้นตอน</a>
+            <a href="#reviews" class="block py-3 px-6 text-gray-700 hover:bg-primary hover:text-gray-800">รีวิว</a>
+            <a href="#contact" class="block py-3 px-6 text-gray-700 hover:bg-primary hover:text-gray-800">ติดต่อเรา</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="relative h-[70vh] bg-cover bg-center flex items-center justify-center" style="background-image: url('https://lh3.googleusercontent.com/gGfam9UDwH3yGz3tlSCKE0zkkF7eSo30w431G4m-we5gdSUigPAEgDarp_jGXp4Ha-5IZNV2JBd56OXnfyIIUpM6P8eruxWeEZKAfGZlqwDG92eZgq0tYZj2c8SKtUWuV_EDYHtCaO8=w16383');">
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div class="relative text-center text-white p-6 z-10">
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight drop-shadow-lg">รับซื้อตั๋วจำนำทอง</h2>
+                <p class="mt-4 text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">เปลี่ยนตั๋วจำนำเป็นเงินสดได้ทันที ให้ราคาสูงที่สุดในอุดรธานีและจังหวัดใกล้เคียง</p>
+                <a href="#appraisal" class="mt-8 inline-block btn-primary font-bold py-3 px-8 rounded-full text-lg shadow-lg">
+                    ✨ ประเมินราคาด้วย AI ฟรี
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark-red">เกี่ยวกับบริการของเรา</h2>
+                </div>
+                <div class="max-w-3xl mx-auto text-center text-gray-600 leading-relaxed space-y-4">
+                    <p>
+                        <strong class="text-gray-800">Golden18udon</strong> คือ ร้านรับซื้อ-ขายตั๋วจำนำทองในเขตจังหวัดอุดรธานี ให้บริการรับซื้อตั๋วจำนำทองรูปพรรณ, ตั๋วจำนำทองคำแท่ง, ตั๋วจำนำเครื่องประดับทองคำ และสินทรัพย์มีค่าต่างๆ ด้วยราคายุติธรรม พร้อมบริการด้วยความจริงใจ โปร่งใส
+                    </p>
+                    <p>
+                        เราเน้นให้บริการกับลูกค้าในพื้นที่และใกล้เคียง ที่ต้องการแปลงสินทรัพย์ให้เป็นเงินสดอย่างรวดเร็ว โดยยังคงความปลอดภัยและมั่นใจได้ในทุกขั้นตอน
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Appraisal Section -->
+        <section id="appraisal" class="py-16 md:py-20 bg-primary">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark-red">ประเมินราคาออนไลน์ด้วย AI</h2>
+                    <p class="mt-2 text-gray-700">กรอกข้อมูลเพื่อคำนวณยอดเงินที่จะได้รับโดยประมาณ</p>
+                </div>
+                <div class="max-w-md mx-auto bg-secondary p-6 md:p-8 rounded-xl shadow-2xl">
+                    <form id="appraisal-form" class="space-y-4">
+                        <div>
+                            <label for="principal" class="block font-medium text-gray-700 mb-1">เงินต้นในตั๋ว (บาท)</label>
+                            <input type="number" id="principal" class="w-full bg-gray-100 text-gray-800 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="เช่น 20000" required>
+                        </div>
+                        <div>
+                            <label for="goldWeight" class="block font-medium text-gray-700 mb-1">น้ำหนักทอง (บาททอง)</label>
+                            <input type="number" id="goldWeight" step="0.1" class="w-full bg-gray-100 text-gray-800 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="เช่น 1" required>
+                        </div>
+                        <div>
+                            <label for="interestRate" class="block font-medium text-gray-700 mb-1">ดอกเบี้ยต่อเดือน (%)</label>
+                            <input type="number" id="interestRate" step="0.1" class="w-full bg-gray-100 text-gray-800 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent" placeholder="เช่น 1.25" required>
+                        </div>
+                        <div>
+                            <label for="pawnDate" class="block font-medium text-gray-700 mb-1">วันที่จำนำ</label>
+                            <input type="date" id="pawnDate" class="w-full bg-gray-100 text-gray-800 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-accent" required>
+                        </div>
+                        <button type="submit" class="w-full btn-primary font-bold py-3 rounded-lg text-lg mt-4">
+                            ✨ คำนวณราคา
+                        </button>
+                    </form>
+                    <div id="appraisal-result-container" class="mt-6 hidden">
+                        <div id="appraisal-loader" class="hidden justify-center items-center py-5">
+                            <div class="gemini-loader"></div>
+                        </div>
+                        <div id="appraisal-result" class="text-gray-700 space-y-3 border-t border-gray-300 pt-6"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steps Section -->
+        <section id="steps" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">5 ขั้นตอนง่ายๆ ในการขายตั๋วจำนำ</h2>
+                <div class="max-w-4xl mx-auto relative">
+                    <div class="absolute left-6 top-0 h-full w-0.5 bg-gray-200 hidden md:block"></div>
+                    <div class="space-y-12">
+                        <div class="flex items-start space-x-6 relative">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-bold z-10">1</div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-1 text-gray-800">ส่งข้อมูลตั๋วจำนำ</h4>
+                                <p class="text-gray-600">ส่งรูปตั๋วจำนำและรายละเอียดผ่าน LINE Official: <a href="https://lin.ee/4WGZnHX" target="_blank" class="text-accent font-semibold underline">@Gold18udon</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 relative">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-bold z-10">2</div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-1 text-gray-800">ประเมินราคา</h4>
+                                <p class="text-gray-600">ร้านจะแจ้งราคาที่รับซื้อได้ พร้อมเงื่อนไขให้ท่านพิจารณาอย่างรวดเร็ว</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 relative">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-bold z-10">3</div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-1 text-gray-800">นัดหมาย</h4>
+                                <p class="text-gray-600">เมื่อตกลงราคาเรียบร้อย จะนัดพบกันที่หน้าโรงรับจำนำหรือร้านทองที่ท่านสะดวก</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 relative">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-bold z-10">4</div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-1 text-gray-800">ดำเนินการไถ่ถอน</h4>
+                                <p class="text-gray-600">เราจะเป็นผู้ชำระเงินเพื่อไถ่ถอนตั๋วจำนำทองจากโรงรับจำนำให้ทั้งหมด</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-6 relative">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-accent text-white flex items-center justify-center text-2xl font-bold z-10">5</div>
+                            <div>
+                                <h4 class="text-xl font-semibold mb-1 text-gray-800">รับเงินทันที</h4>
+                                <p class="text-gray-600">ท่านจะได้รับเงินส่วนต่างตามที่ตกลงไว้ทันที ไม่ว่าจะเป็นเงินสด หรือโอนผ่านบัญชี</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Why Us Section -->
+        <section id="why-us" class="py-16 md:py-20 bg-primary">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-dark-red">ทำไมต้องเลือกเรา?</h2>
+                </div>
+                <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">ให้ราคาสูงและยุติธรรม</h4>
+                        <p class="text-gray-600">เราประเมินราคาตั๋วจำนำทองคำอย่างยุติธรรมเพื่อให้คุณได้รับมูลค่าสูงสุด</p>
+                    </div>
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">รวดเร็ว ได้เงินทันที</h4>
+                        <p class="text-gray-600">ขั้นตอนง่ายและรวดเร็ว ทำให้คุณได้รับเงินสดทันที ไม่ต้องรอนาน</p>
+                    </div>
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">บริการถึงที่</h4>
+                        <p class="text-gray-600">เรามีบริการรับซื้อตั๋วจำนำทองคำถึงที่บ้านคุณ โดยไม่คิดค่าใช้จ่ายเพิ่มเติม</p>
+                    </div>
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">รักษาความลับ</h4>
+                        <p class="text-gray-600">ข้อมูลของคุณจะถูกเก็บรักษาเป็นความลับ ไม่มีการเปิดเผยให้บุคคลภายนอก</p>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                    <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block btn-primary font-bold py-3 px-8 rounded-full text-lg shadow-lg">
+                        ส่งข้อมูลประเมินราคาทาง LINE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">"เสียงตอบรับจากลูกค้า"</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Review Card 1 -->
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">รวดเร็วทันใจบริการดีมากครับ เล็กๆน้อยๆพี่เขาก็มาปิดให้ถึงที่เลยครับ</p>
+                        <div class="flex items-center mt-auto">
+                            <img src="https://placehold.co/40x40/D84040/FFFFFF?text=A" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.อุดรธานี</p>
+                        </div>
+                    </div>
+                    <!-- Review Card 2 -->
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">ไม่มีอะไรจะแนะนำครับ แต่จะขอบอกว่าขอบคุณจากใจในฐานะผู้ใช้บริการของพี่ครับ</p>
+                        <div class="flex items-center mt-auto">
+                            <img src="https://placehold.co/40x40/D84040/FFFFFF?text=B" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองบัวลำภู</p>
+                        </div>
+                    </div>
+                    <!-- Review Card 3 -->
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">พนักงานน่ารัก พูดจาดีมากๆค่ะ</p>
+                        <div class="flex items-center mt-auto">
+                            <img src="https://placehold.co/40x40/D84040/FFFFFF?text=C" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.ขอนแก่น</p>
+                        </div>
+                    </div>
+                    <!-- Review Card 4 -->
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">ผู้จัดการสาขาบริการดีมาก พิสูจน์ทองให้ลูกค้ามั่นใจในทองคำของทางร้าน</p>
+                        <div class="flex items-center mt-auto">
+                           <img src="https://placehold.co/40x40/D84040/FFFFFF?text=D" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Customer Photos Review Section -->
+        <section id="customer-photos" class="py-16 md:py-20 bg-primary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวลูกค้า</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihY_6J8FPPsBHSB86r7InDz6T2nVGAtW6CQGMeS5qSXx_DlBZx7OORrQiEjRpXSP6u9NdLihA4VHg5j_pGuDbNnK-xIqf0SniuSf6HbE57FsLXFILFnJ7-0tZUTapAqxqxugPh2t97Dy_7vC90=w1280" alt="รีวิวลูกค้า 1" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZl9bS215-V7ApjzCzhSc5cOrXoUYz7nSZbFioKeoJOmQdt6huZghE0_QmzdBBKoiXrAejM_SYAcKLIx5XfUpP3ZH4NXcLpZpiKvU6QEIjvANwaDHn1CsU6OBaAPZ_8kuia8wRUjUv-0knP6X-wKCY=w1280" alt="รีวิวลูกค้า 2" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYg_x26WIW4Z3HZI0EW0GuzEBc9xH5TuqJfhdOGUguMCYgraKK3YX8u293zmJ4JHrp6a_GljNrAKNiqpZ1uNGkpDP2jkZBGEulkhmg0BedVm2E0NVJAd1LUm_LENGHc8I_3cVGMP9QwQav0Nh4=w1280" alt="รีวิวลูกค้า 3" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://lh3.googleusercontent.com/drive-viewer/AKGpihYp7HdjH4tCBlvIf1uD4ECaZ-06vXry7XSghzVxrLr-o5Sm7IYwWo-NFsmAmKZx_DU69FsB4qh40uFsc3G32AOXB3-7oM9Yo6TOo8lH987HLHFu7Sbbc3XDuGc1N-cqy0YzFTFDxefQ9rDVIU=w1280" alt="รีวิวลูกค้า 4" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://placehold.co/400x600/ECDCBF/A31D1D?text=รีวิว" alt="รีวิวลูกค้า 5" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://placehold.co/400x600/ECDCBF/A31D1D?text=รีวิว" alt="รีวิวลูกค้า 6" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://placehold.co/400x600/ECDCBF/A31D1D?text=รีวิว" alt="รีวิวลูกค้า 7" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                    <img src="https://placehold.co/400x600/ECDCBF/A31D1D?text=รีวิว" alt="รีวิวลูกค้า 8" class="w-full h-auto object-cover rounded-lg shadow-md" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area Section -->
+        <section id="service-area" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-2xl md:text-3xl font-bold text-dark-red mb-8">พื้นที่ให้บริการ</h2>
+                <div class="flex flex-wrap justify-center gap-4 text-lg">
+                    <span class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">📍 อุดรธานี</span>
+                    <span class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">📍 ขอนแก่น</span>
+                    <span class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">📍 หนองคาย</span>
+                    <span class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">📍 หนองบัวลำภู</span>
+                    <span class="bg-gray-100 text-gray-700 py-2 px-4 rounded-full">📍 และจังหวัดใกล้เคียง</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-black text-gray-400">
+        <div class="container mx-auto px-6 py-12 text-center">
+            <h3 class="text-2xl font-bold text-white mb-4">ติดต่อเรา</h3>
+            <p class="mb-6">พร้อมให้บริการ จันทร์ - เสาร์ 9:00 - 17:30 น.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
+                <a href="tel:0991013426" class="hover:text-white text-lg"><i class="fas fa-phone-alt mr-2"></i>099-101-3426</a>
+                <a href="mailto:gold18udon@gmail.com" class="hover:text-white text-lg"><i class="fas fa-envelope mr-2"></i>gold18udon@gmail.com</a>
+            </div>
+            <div class="flex justify-center space-x-6 text-3xl mb-8">
+                <a href="https://lin.ee/4WGZnHX" target="_blank" class="hover:text-green-400" aria-label="Line"><i class="fab fa-line"></i></a>
+                <a href="https://web.facebook.com/Gold18udon" target="_blank" class="hover:text-blue-500" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <p class="text-sm">&copy; 2024 รับซื้อตั๋วจำนำทอง By คุณต๋อง. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <button id="to-top-button" title="Back to Top" class="hidden fixed bottom-5 right-5 p-3 rounded-full bg-accent text-white shadow-lg hover:bg-red-500 transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        const appraisalForm = document.getElementById('appraisal-form');
+
+        appraisalForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const principal = document.getElementById('principal').value;
+            const goldWeight = document.getElementById('goldWeight').value;
+            const interestRate = document.getElementById('interestRate').value;
+            const pawnDate = document.getElementById('pawnDate').value;
+            
+            const formattedDate = pawnDate ? new Date(pawnDate).toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' }) : 'ไม่ได้ระบุ';
+
+            const message = `สวัสดีครับ สนใจประเมินราคาตั๋วจำนำครับ\n\n- เงินต้น: ${principal} บาท\n- น้ำหนักทอง: ${goldWeight} บาท\n- ดอกเบี้ย: ${interestRate}%\n- วันที่จำนำ: ${formattedDate}\n\nรบกวนประเมินราคาให้ด้วยครับ`;
+
+            const lineURL = `https://lin.ee/4WGZnHX`;
+            
+            // Create a temporary textarea to copy the message
+            const textArea = document.createElement("textarea");
+            textArea.value = message;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                // Optional: Give user feedback that text was copied
+            } catch (err) {
+                console.error('Fallback: Oops, unable to copy', err);
+            }
+            document.body.removeChild(textArea);
+
+            window.open(lineURL, '_blank');
+        });
+
+        // --- UI Scripts ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        const toTopButton = document.getElementById('to-top-button');
+        window.onscroll = () => {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                toTopButton.classList.remove('hidden');
+            } else {
+                toTopButton.classList.add('hidden');
+            }
+        };
+        toTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
