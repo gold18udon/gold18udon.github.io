@@ -94,6 +94,54 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        /* Styles for the image carousel */
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            scroll-behavior: smooth;
+        }
+        .carousel-slide {
+            flex: 0 0 100%; /* Each slide takes full width */
+            padding: 0 1rem; /* Adjust padding as needed */
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        .carousel-slide img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+        .carousel-button:hover {
+            background-color: rgba(0,0,0,0.7);
+        }
+        .carousel-button.prev {
+            left: 1rem;
+        }
+        .carousel-button.next {
+            right: 1rem;
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -403,7 +451,49 @@
             </div>
         </section>
 
-        <section id="service-area" class="py-16 md:py-20 bg-secondary">
+        <section id="customer-photo-reviews-carousel" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รูปภาพรีวิวจากลูกค้า</h2>
+                <div class="relative max-w-4xl mx-auto carousel-container">
+                    <div id="photo-carousel-wrapper" class="carousel-wrapper">
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-1.png" alt="รีวิวรูปภาพลูกค้า 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-2.png" alt="รีวิวรูปภาพลูกค้า 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-3.png" alt="รีวิวรูปภาพลูกค้า 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-4.png" alt="รีวิวรูปภาพลูกค้า 4">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-5.png" alt="รีวิวรูปภาพลูกค้า 5">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-6.png" alt="รีวิวรูปภาพลูกค้า 6">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-7.png" alt="รีวิวรูปภาพลูกค้า 7">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-8.png" alt="รีวิวรูปภาพลูกค้า 8">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-9.png" alt="รีวิวรูปภาพลูกค้า 9">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review/rw-10.png" alt="รีวิวรูปภาพลูกค้า 10">
+                        </div>
+                        </div>
+                    <button id="prev-photo-slide" class="carousel-button prev">❮</button>
+                    <button id="next-photo-slide" class="carousel-button next">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="service-area" class="py-16 md:py-20 bg-primary">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-2xl md:text-3xl font-bold text-dark-red mb-12">พื้นที่ให้บริการ</h2>
                 <div class="max-w-4xl mx-auto text-left space-y-8">
@@ -427,7 +517,7 @@
             <div class="container mx-auto px-6">
                 <div class="md:flex md:items-center md:space-x-12">
                     <div class="md:w-2/5 mb-8 md:mb-0">
-                        <img src="P-GitHub/Photo/your-special-offer-image.jpg" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full">
+                        <img src="P-GitHub/Banner/Bn2.png" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full">
                     </div>
                     <div class="md:w-3/5">
                         <h2 class="text-2xl md:text-3xl font-bold mb-8">สิทธิพิเศษที่คุณจะได้รับ</h2>
@@ -455,6 +545,12 @@
                                 <div class="ml-4">
                                     <p class="text-lg text-gray-100">สำหรับลูกค้าใหม่และลูกค้าเก่า เรามีโปรโมชั่นพิเศษที่น่าสนใจรอคุณอยู่</p>
                                 </div>
+                            <div class="mt-8">
+                            <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block line-button font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition-shadow">
+                            <i class="fab fa-line mr-2"></i>
+                            ส่งข้อมูลประเมินราคาทาง LINE
+                            </a>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -535,6 +631,41 @@
         toTopButton.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
+
+        // --- Carousel Script ---
+        const carouselWrapper = document.getElementById('photo-carousel-wrapper');
+        const prevButton = document.getElementById('prev-photo-slide');
+        const nextButton = document.getElementById('next-photo-slide');
+        const slides = document.querySelectorAll('.carousel-slide');
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            if (index >= slides.length) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = slides.length - 1;
+            } else {
+                currentIndex = index;
+            }
+            const offset = -currentIndex * 100; // 100% per slide
+            carouselWrapper.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            showSlide(currentIndex - 1);
+        });
+
+        nextButton.addEventListener('click', () => {
+            showSlide(currentIndex + 1);
+        });
+
+        // Initial display
+        showSlide(0);
+
+        // Optional: Auto-slide
+        // setInterval(() => {
+        //     showSlide(currentIndex + 1);
+        // }, 5000); // Change slide every 5 seconds
     </script>
 </body>
 </html>
