@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="th" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>รับซื้อตั๋วจำนำทอง อุดรธานี ขอนแก่น กรุงเทพฯ | ราคาดี - By คุณต๋อง</title>
     <meta name="description" content="รับซื้อตั๋วจำนำทองและสินทรัพย์มีค่าทุกประเภทในอุดรธานีและจังหวัดใกล้เคียง ให้ราคาสูง ยุติธรรม บริการรวดเร็ว ได้เงินสดทันที ประเมินราคาออนไลน์ฟรี!">
     <meta name="keywords" content="รับซื้อตั๋วจำนำ, รับซื้อตั๋วจำนำทอง, ขายตั๋วจำนำทอง, ตั๋วจำนำ, ขายตั๋วจำนำ, รับซื้อตั๋วจำนำอุดรธานี, รับซื้อตั๋วจำนำขอนแก่น, รับซื้อตั๋วจำนำหนองคาย, ไถ่ถอนทอง, Gold18 Udon, คุณต๋อง">
@@ -26,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -94,8 +95,54 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        .carousel-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .carousel-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .carousel-slide {
+            flex: 0 0 100%;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+        .carousel-slide img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 1.5rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+        .carousel-button:hover {
+            background-color: rgba(0,0,0,0.7);
+        }
+        .carousel-button.prev {
+            left: 1rem;
+        }
+        .carousel-button.next {
+            right: 1rem;
+        }
     </style>
 </head>
+
 <body class="antialiased">
 
     <header class="bg-secondary shadow-lg sticky top-0 z-50">
@@ -107,8 +154,8 @@
             <nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
                 <a href="#appraisal" class="hover:text-accent transition duration-300">ประเมินราคา</a>
                 <a href="#steps" class="hover:text-accent transition duration-300">ขั้นตอน</a>
-                <a href="#contact" class="hover:text-accent transition duration-300">ติดต่อเรา</a> 
-                <a href="#about" class="hover:text-accent transition duration-300">เกี่ยวกับเรา</a> 
+                <a href="#contact" class="hover:text-accent transition duration-300">ติดต่อเรา</a>
+                <a href="#about" class="hover:text-accent transition duration-300">เกี่ยวกับเรา</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-gray-800 text-2xl">
                 <i class="fas fa-bars"></i>
@@ -360,46 +407,63 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
-                        <div class="flex text-yellow-400 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="customer-photo-reviews-carousel" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวไถ่ถอนเสร็จ</h2>
+                <div class="relative max-w-4xl mx-auto carousel-container">
+                    <div id="photo-carousel-wrapper" class="carousel-wrapper">
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw1.png" alt="รีวิวไถ่ถอนเสร็จ 1">
                         </div>
-                        <p class="text-gray-600 mb-4 flex-grow">ผู้จัดการสาขาบริการดีมาก พิสูจน์ทองให้ลูกค้ามั่นใจในทองคำของทางร้าน</p>
-                        <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/photo-5.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
-                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw2.png" alt="รีวิวไถ่ถอนเสร็จ 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw3.png" alt="รีวิวไถ่ถอนเสร็จ 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw4.png" alt="รีวิวไถ่ถอนเสร็จ 4">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw5.png" alt="รีวิวไถ่ถอนเสร็จ 5">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw6.png" alt="รีวิวไถ่ถอนเสร็จ 6">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw7.png" alt="รีวิวไถ่ถอนเสร็จ 7">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw8.png" alt="รีวิวไถ่ถอนเสร็จ 8">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw9.png" alt="รีวิวไถ่ถอนเสร็จ 9">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw10.png" alt="รีวิวไถ่ถอนเสร็จ 10">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw11.png" alt="รีวิวไถ่ถอนเสร็จ 11">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw12.png" alt="รีวิวไถ่ถอนเสร็จ 12">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw13.png" alt="รีวิวไถ่ถอนเสร็จ 13">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw14.png" alt="รีวิวไถ่ถอนเสร็จ 14">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw15.png" alt="รีวิวไถ่ถอนเสร็จ 15">
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
-                        <div class="flex text-yellow-400 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-gray-600 mb-4 flex-grow">ผู้จัดการสาขาบริการดีมาก พิสูจน์ทองให้ลูกค้ามั่นใจในทองคำของทางร้าน</p>
-                        <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/photo-6.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
-                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
-                        </div>
-                    </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
-                        <div class="flex text-yellow-400 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-gray-600 mb-4 flex-grow">ผู้จัดการสาขาบริการดีมาก พิสูจน์ทองให้ลูกค้ามั่นใจในทองคำของทางร้าน</p>
-                        <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/photo-7.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
-                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
-                        </div>
-                    </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
-                        <div class="flex text-yellow-400 mb-2">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="text-gray-600 mb-4 flex-grow">บริการดีมาก พิสูจน์ทองให้ลูกค้ามั่นใจในทองคำของทางร้าน</p>
-                        <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/photo-8.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
-                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
-                        </div>
-                    </div>
+                    <button id="prev-photo-slide" class="carousel-button prev">❮</button>
+                    <button id="next-photo-slide" class="carousel-button next">❯</button>
                 </div>
             </div>
         </section>
@@ -428,10 +492,7 @@
             <div class="container mx-auto px-6">
                 <div class="md:flex md:items-center md:space-x-12">
                     <div class="md:w-2/5 mb-8 md:mb-0 text-center">
-                        <img src="P-GitHub/Photo/your-special-offer-image.jpg" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full mb-6">
-                        <h3 class="text-xl font-bold mb-2">มีบริการรับซื้อตั๋วจำนำถึงบ้าน</h3>
-                        <p class="mb-4">รับซื้อถึงที่หน้าบ้านของคุณ</p>
-                        
+                        <img src="P-GitHub/Banner/Bn2.png" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full mb-6">
                         <div class="mt-8 flex justify-center">
                             <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block line-button font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition-shadow">
                                 <i class="fab fa-line mr-2"></i>
@@ -512,7 +573,6 @@
 
             const lineURL = `https://lin.ee/4WGZnHX`;
             
-            // Create a temporary textarea to copy the message
             const textArea = document.createElement("textarea");
             textArea.value = message;
             document.body.appendChild(textArea);
@@ -527,7 +587,6 @@
             window.open(lineURL, '_blank');
         });
 
-        // --- UI Scripts ---
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         mobileMenuButton.addEventListener('click', () => {
@@ -546,7 +605,6 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // --- Carousel Script ---
         const carouselWrapper = document.getElementById('photo-carousel-wrapper');
         const prevButton = document.getElementById('prev-photo-slide');
         const nextButton = document.getElementById('next-photo-slide');
@@ -563,7 +621,7 @@
                 } else {
                     currentIndex = index;
                 }
-                const offset = -currentIndex * 100; // 100% per slide
+                const offset = -currentIndex * 100;
                 carouselWrapper.style.transform = `translateX(${offset}%)`;
             }
 
@@ -575,7 +633,6 @@
                 showSlide(currentIndex + 1);
             });
             
-            // Initial display
             showSlide(0);
         }
     </script>
