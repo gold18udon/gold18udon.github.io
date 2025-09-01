@@ -407,10 +407,50 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
+                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">บริการดีเยี่ยม ให้คำแนะนำดีมากครับ</p>
+                        <div class="flex items-center mt-auto">
+                           <img src="P-GitHub/Photo/photo-5.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.สกลนคร</p>
+                        </div>
+                    </div>
+                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">ประทับใจมากครับ สะดวกและรวดเร็วมาก</p>
+                        <div class="flex items-center mt-auto">
+                           <img src="P-GitHub/Photo/photo-6.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.เลย</p>
+                        </div>
+                    </div>
+                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">ให้ราคาดีที่สุดเท่าที่เคยถามมาเลยค่ะ</p>
+                        <div class="flex items-center mt-auto">
+                           <img src="P-GitHub/Photo/photo-7.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.ชัยภูมิ</p>
+                        </div>
+                    </div>
+                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                        <div class="flex text-yellow-400 mb-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4 flex-grow">บริการเป็นกันเองมากครับ ชอบมากๆ</p>
+                        <div class="flex items-center mt-auto">
+                           <img src="P-GitHub/Photo/photo-8.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <p class="font-semibold text-gray-700">- คุณลูกค้า จ.มหาสารคาม</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
+        
         <section id="customer-photo-reviews-carousel" class="py-16 md:py-20 bg-secondary">
             <div class="container mx-auto px-6">
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวไถ่ถอนเสร็จ</h2>
@@ -557,53 +597,53 @@
 
     <script>
         const appraisalForm = document.getElementById('appraisal-form');
-
-        appraisalForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            const principal = document.getElementById('principal').value;
-            const goldWeight = document.getElementById('goldWeight').value;
-            const interestRate = document.getElementById('interestRate').value;
-            const pawnDate = document.getElementById('pawnDate').value;
-            const phone = document.getElementById('phone').value;
-
-            const formattedDate = pawnDate ? new Date(pawnDate).toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' }) : 'ไม่ได้ระบุ';
-
-            const message = `สวัสดีครับ สนใจประเมินราคาตั๋วจำนำครับ\n\n- เงินต้น: ${principal} บาท\n- น้ำหนักทอง: ${goldWeight} บาท\n- ดอกเบี้ย: ${interestRate}%\n- วันที่จำนำ: ${formattedDate}\n- เบอร์โทรติดต่อ: ${phone}\n\nรบกวนประเมินราคาให้ด้วยครับ`;
-
-            const lineURL = `https://lin.ee/4WGZnHX`;
-            
-            const textArea = document.createElement("textarea");
-            textArea.value = message;
-            document.body.appendChild(textArea);
-            textArea.select();
-            try {
-                document.execCommand('copy');
-            } catch (err) {
-                console.error('Fallback: Oops, unable to copy', err);
-            }
-            document.body.removeChild(textArea);
-
-            window.open(lineURL, '_blank');
-        });
+        if (appraisalForm) {
+            appraisalForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const principal = document.getElementById('principal').value;
+                const goldWeight = document.getElementById('goldWeight').value;
+                const interestRate = document.getElementById('interestRate').value;
+                const pawnDate = document.getElementById('pawnDate').value;
+                const phone = document.getElementById('phone').value;
+                const formattedDate = pawnDate ? new Date(pawnDate).toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric' }) : 'ไม่ได้ระบุ';
+                const message = `สวัสดีครับ สนใจประเมินราคาตั๋วจำนำครับ\n\n- เงินต้น: ${principal} บาท\n- น้ำหนักทอง: ${goldWeight} บาท\n- ดอกเบี้ย: ${interestRate}%\n- วันที่จำนำ: ${formattedDate}\n- เบอร์โทรติดต่อ: ${phone}\n\nรบกวนประเมินราคาให้ด้วยครับ`;
+                const lineURL = `https://lin.ee/4WGZnHX`;
+                
+                const textArea = document.createElement("textarea");
+                textArea.value = message;
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                } catch (err) {
+                    console.error('Fallback: Oops, unable to copy', err);
+                }
+                document.body.removeChild(textArea);
+                window.open(lineURL, '_blank');
+            });
+        }
 
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
 
         const toTopButton = document.getElementById('to-top-button');
-        window.onscroll = () => {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                toTopButton.classList.remove('hidden');
-            } else {
-                toTopButton.classList.add('hidden');
-            }
-        };
-        toTopButton.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
+        if (toTopButton) {
+            window.onscroll = () => {
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    toTopButton.classList.remove('hidden');
+                } else {
+                    toTopButton.classList.add('hidden');
+                }
+            };
+            toTopButton.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
 
         const carouselWrapper = document.getElementById('photo-carousel-wrapper');
         const prevButton = document.getElementById('prev-photo-slide');
@@ -611,28 +651,18 @@
         if (carouselWrapper && prevButton && nextButton) {
             const slides = carouselWrapper.querySelectorAll('.carousel-slide');
             let currentIndex = 0;
-
             function showSlide(index) {
                 if (slides.length === 0) return;
-                if (index >= slides.length) {
-                    currentIndex = 0;
-                } else if (index < 0) {
-                    currentIndex = slides.length - 1;
-                } else {
-                    currentIndex = index;
-                }
+                currentIndex = (index + slides.length) % slides.length;
                 const offset = -currentIndex * 100;
                 carouselWrapper.style.transform = `translateX(${offset}%)`;
             }
-
             prevButton.addEventListener('click', () => {
                 showSlide(currentIndex - 1);
             });
-
             nextButton.addEventListener('click', () => {
                 showSlide(currentIndex + 1);
             });
-            
             showSlide(0);
         }
     </script>
