@@ -94,54 +94,6 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-
-        /* Styles for the image carousel */
-        .carousel-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-        .carousel-wrapper {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-            scroll-behavior: smooth;
-        }
-        .carousel-slide {
-            flex: 0 0 100%; /* Each slide takes full width */
-            padding: 0 1rem; /* Adjust padding as needed */
-            box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-        }
-        .carousel-slide img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 0.5rem;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        .carousel-button {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0,0,0,0.5);
-            color: white;
-            border: none;
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            z-index: 10;
-            font-size: 1.5rem;
-            border-radius: 0.5rem;
-            transition: background-color 0.3s ease;
-        }
-        .carousel-button:hover {
-            background-color: rgba(0,0,0,0.7);
-        }
-        .carousel-button.prev {
-            left: 1rem;
-        }
-        .carousel-button.next {
-            right: 1rem;
-        }
     </style>
 </head>
 <body class="antialiased">
@@ -200,7 +152,7 @@
                     <h2 class="text-2xl md:text-3xl font-bold text-dark-red">เกี่ยวกับบริการของเรา</h2>
                 </div>
                 <div class="max-w-3xl mx-auto text-center text-gray-600 leading-relaxed space-y-4">
-                    <p><strong class="text-gray-800">Golden18udon</strong> คือ ร้านรับซื้อ-ขายตั๋วจำนำทองในเขตจังหวัดอุดรธานี ให้บริการรับซื้อตั๋วจำนำทองรูปพรรณ, ตั๋วจำนำทองคำแท่ง, ตั๋วจำนำเครื่องประดับทองคำ และสินทรัพย์มีค่าต่างๆ ด้วยราคายุติธรรม พร้อมบริการด้วยความจริงใจ โปร่งใส</p>
+                    <p><strong class="text-gray-800">Gold18udon</strong> คือ ร้านรับซื้อ-ขายตั๋วจำนำทองในเขตจังหวัดอุดรธานี ให้บริการรับซื้อตั๋วจำนำทองรูปพรรณ, ตั๋วจำนำทองคำแท่ง, ตั๋วจำนำเครื่องประดับทองคำ และสินทรัพย์มีค่าต่างๆ ด้วยราคายุติธรรม พร้อมบริการด้วยความจริงใจ โปร่งใส</p>
                     <p>เราเน้นให้บริการกับลูกค้าในพื้นที่และใกล้เคียง ที่ต้องการแปลงสินทรัพย์ให้เป็นเงินสดอย่างรวดเร็ว โดยยังคงความปลอดภัยและมั่นใจได้ในทุกขั้นตอน</p>
                 </div>
             </div>
@@ -294,80 +246,43 @@
             </div>
         </section>
         
-        <section id="customer-photos" class="py-16 md:py-20 bg-primary">
-            <div class="container mx-auto px-6">
-                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวผู้ใช้บริการ</h2>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-1.png" alt="รีวิวลูกค้า 1" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-2.png" alt="รีวิวลูกค้า 2" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-3.png" alt="รีวิวลูกค้า 3" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-4.png" alt="รีวิวลูกค้า 4" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-5.png" alt="รีวิวลูกค้า 5" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-6.png" alt="รีวิวลูกค้า 6" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-7.png" alt="รีวิวลูกค้า 7" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-8.png" alt="รีวิวลูกค้า 8" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-9.png" alt="รีวิวลูกค้า 9" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-10.png" alt="รีวิวลูกค้า 10" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="why-us" class="py-16 md:py-20 bg-secondary">
+        <section id="why-us" class="py-16 md:py-20 bg-primary">
             <div class="container mx-auto px-6">
                  <div class="text-center mb-12">
                     <h2 class="text-2xl md:text-3xl font-bold text-dark-red">ทำไมต้องเลือกเรา?</h2>
                 </div>
                 <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-primary/50 p-6 rounded-lg text-center">
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">ให้ราคาสูงและยุติธรรม</h4>
                         <p class="text-gray-600">เราประเมินราคาตั๋วจำนำทองคำอย่างยุติธรรมเพื่อให้คุณได้รับมูลค่าสูงสุด</p>
                     </div>
-                    <div class="bg-primary/50 p-6 rounded-lg text-center">
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">รวดเร็ว ได้เงินทันที</h4>
                         <p class="text-gray-600">ขั้นตอนง่ายและรวดเร็ว ทำให้คุณได้รับเงินสดทันที ไม่ต้องรอนาน</p>
                     </div>
-                    <div class="bg-primary/50 p-6 rounded-lg text-center">
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">บริการถึงที่</h4>
                         <p class="text-gray-600">เรามีบริการรับซื้อตั๋วจำนำทองคำถึงที่บ้านคุณ โดยไม่คิดค่าใช้จ่ายเพิ่มเติม</p>
                     </div>
-                    <div class="bg-primary/50 p-6 rounded-lg text-center">
+                    <div class="bg-secondary/50 p-6 rounded-lg text-center">
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">รักษาความลับ</h4>
                         <p class="text-gray-600">ข้อมูลของคุณจะถูกเก็บรักษาเป็นความลับ ไม่มีการเปิดเผยให้บุคคลภายนอก</p>
                     </div>
                 </div>
                 <div class="text-center mt-12">
                     <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block line-button font-bold py-3 px-8 rounded-full text-lg shadow-lg">
+                        <i class="fab fa-line mr-2"></i>
                         ส่งข้อมูลประเมินราคาทาง LINE
                     </a>
                 </div>
             </div>
         </section>
 
-        <section id="reviews" class="py-16 md:py-20 bg-primary">
+        <section id="reviews" class="py-16 md:py-20 bg-secondary">
             <div class="container mx-auto px-6">
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">"เสียงตอบรับจากลูกค้า"</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -377,7 +292,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.อุดรธานี</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -387,7 +302,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองบัวลำภู</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -397,7 +312,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.ขอนแก่น</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -407,7 +322,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -417,7 +332,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -427,7 +342,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -437,7 +352,7 @@
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
-                    <div class="bg-secondary p-6 rounded-lg shadow-md flex flex-col">
+                    <div class="bg-primary p-6 rounded-lg shadow-md flex flex-col">
                         <div class="flex text-yellow-400 mb-2">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
@@ -451,64 +366,64 @@
             </div>
         </section>
 
-<section id="customer-photo-reviews-carousel" class="py-16 md:py-20 bg-secondary">
-    <div class="container mx-auto px-6">
-        <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวไถ่ถอนเสร็จ</h2>
-        <div class="relative max-w-4xl mx-auto carousel-container">
-            <div id="photo-carousel-wrapper" class="carousel-wrapper">
-                
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw1.png" alt="รีวิวไถ่ถอนเสร็จ 1">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw2.png" alt="รีวิวไถ่ถอนเสร็จ 2">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw3.png" alt="รีวิวไถ่ถอนเสร็จ 3">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw4.png" alt="รีวิวไถ่ถอนเสร็จ 4">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw5.png" alt="รีวิวไถ่ถอนเสร็จ 5">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw6.png" alt="รีวิวไถ่ถอนเสร็จ 6">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw7.png" alt="รีวิวไถ่ถอนเสร็จ 7">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw8.png" alt="รีวิวไถ่ถอนเสร็จ 8">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw9.png" alt="รีวิวไถ่ถอนเสร็จ 9">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw10.png" alt="รีวิวไถ่ถอนเสร็จ 10">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw11.png" alt="รีวิวไถ่ถอนเสร็จ 11">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw12.png" alt="รีวิวไถ่ถอนเสร็จ 12">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw13.png" alt="รีวิวไถ่ถอนเสร็จ 13">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw14.png" alt="รีวิวไถ่ถอนเสร็จ 14">
-                </div>
-                <div class="carousel-slide">
-                    <img src="P-GitHub/Review2/Rw15.png" alt="รีวิวไถ่ถอนเสร็จ 15">
-                </div>
+        <section id="customer-photo-reviews-carousel" class="py-16 md:py-20 bg-secondary">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวไถ่ถอนเสร็จ</h2>
+                <div class="relative max-w-4xl mx-auto carousel-container">
+                    <div id="photo-carousel-wrapper" class="carousel-wrapper">
+                        
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw1.png" alt="รีวิวไถ่ถอนเสร็จ 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw2.png" alt="รีวิวไถ่ถอนเสร็จ 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw3.png" alt="รีวิวไถ่ถอนเสร็จ 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw4.png" alt="รีวิวไถ่ถอนเสร็จ 4">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw5.png" alt="รีวิวไถ่ถอนเสร็จ 5">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw6.png" alt="รีวิวไถ่ถอนเสร็จ 6">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw7.png" alt="รีวิวไถ่ถอนเสร็จ 7">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw8.png" alt="รีวิวไถ่ถอนเสร็จ 8">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw9.png" alt="รีวิวไถ่ถอนเสร็จ 9">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw10.png" alt="รีวิวไถ่ถอนเสร็จ 10">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw11.png" alt="รีวิวไถ่ถอนเสร็จ 11">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw12.png" alt="รีวิวไถ่ถอนเสร็จ 12">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw13.png" alt="รีวิวไถ่ถอนเสร็จ 13">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw14.png" alt="รีวิวไถ่ถอนเสร็จ 14">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="P-GitHub/Review2/Rw15.png" alt="รีวิวไถ่ถอนเสร็จ 15">
+                        </div>
 
+                    </div>
+                    <button id="prev-photo-slide" class="carousel-button prev">❮</button>
+                    <button id="next-photo-slide" class="carousel-button next">❯</button>
+                </div>
             </div>
-            <button id="prev-photo-slide" class="carousel-button prev">❮</button>
-            <button id="next-photo-slide" class="carousel-button next">❯</button>
-        </div>
-    </div>
-</section>
+        </section>
 
         <section id="service-area" class="py-16 md:py-20 bg-primary">
             <div class="container mx-auto px-6 text-center">
@@ -533,8 +448,17 @@
         <section id="privileges" class="py-16 md:py-20 bg-accent text-white">
             <div class="container mx-auto px-6">
                 <div class="md:flex md:items-center md:space-x-12">
-                    <div class="md:w-2/5 mb-8 md:mb-0">
-                        <img src="P-GitHub/Banner/Bn2.png" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full">
+                    <div class="md:w-2/5 mb-8 md:mb-0 text-center">
+                        <img src="P-GitHub/Photo/your-special-offer-image.jpg" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full mb-6">
+                        <h3 class="text-xl font-bold mb-2">มีบริการรับซื้อตั๋วจำนำถึงบ้าน</h3>
+                        <p class="mb-4">รับซื้อถึงที่หน้าบ้านของคุณ</p>
+                        
+                        <div class="mt-8 flex justify-center">
+                            <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block line-button font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition-shadow">
+                                <i class="fab fa-line mr-2"></i>
+                                ส่งข้อมูลประเมินราคาทาง LINE
+                            </a>
+                        </div>
                     </div>
                     <div class="md:w-3/5">
                         <h2 class="text-2xl md:text-3xl font-bold mb-8">สิทธิพิเศษที่คุณจะได้รับ</h2>
@@ -562,12 +486,6 @@
                                 <div class="ml-4">
                                     <p class="text-lg text-gray-100">สำหรับลูกค้าใหม่และลูกค้าเก่า เรามีโปรโมชั่นพิเศษที่น่าสนใจรอคุณอยู่</p>
                                 </div>
-                            </div> <div class="mt-8 flex justify-center">
-                            <a href="https://lin.ee/4WGZnHX" target="_blank" class="inline-block line-button font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transition-shadow">
-                            <i class="fab fa-line mr-2"></i>
-                            ส่งข้อมูลประเมินราคาทาง LINE
-                            </a>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -657,6 +575,7 @@
         let currentIndex = 0;
 
         function showSlide(index) {
+            if(!carouselWrapper) return; // Prevent error if element not found
             if (index >= slides.length) {
                 currentIndex = 0;
             } else if (index < 0) {
@@ -667,22 +586,20 @@
             const offset = -currentIndex * 100; // 100% per slide
             carouselWrapper.style.transform = `translateX(${offset}%)`;
         }
+        if(prevButton && nextButton){
+            prevButton.addEventListener('click', () => {
+                showSlide(currentIndex - 1);
+            });
 
-        prevButton.addEventListener('click', () => {
-            showSlide(currentIndex - 1);
-        });
-
-        nextButton.addEventListener('click', () => {
-            showSlide(currentIndex + 1);
-        });
-
+            nextButton.addEventListener('click', () => {
+                showSlide(currentIndex + 1);
+            });
+        }
+        
         // Initial display
-        showSlide(0);
-
-        // Optional: Auto-slide
-        // setInterval(() => {
-        //     showSlide(currentIndex + 1);
-        // }, 5000); // Change slide every 5 seconds
+        if(slides.length > 0) {
+            showSlide(0);
+        }
     </script>
 </body>
 </html>
