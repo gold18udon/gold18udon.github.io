@@ -23,7 +23,7 @@
     <meta property="twitter:image" content="https://gold18udon.github.io/P-GitHub/Banner/Bn1.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -148,7 +148,7 @@
     <header class="bg-secondary shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#home" class="flex items-center space-x-3">
-                <img src="P-GitHub/Logo/Logo.png" alt="Logo ร้านรับซื้อตั๋วจำนำทอง By คุณต๋อง" class="h-10 w-10 rounded-full object-cover">
+                <img src="https://gold18udon.github.io/P-GitHub/Logo/Logo.png" alt="Logo ร้านรับซื้อตั๋วจำนำทอง By คุณต๋อง" class="h-10 w-10 rounded-full object-cover">
                 <h1 class="text-base md:text-lg font-semibold text-gray-800">By คุณต๋อง</h1>
             </a>
             <nav class="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
@@ -171,7 +171,7 @@
     </header>
 
     <main>
-        <section id="home" class="relative h-[50vh] bg-cover bg-center flex items-center justify-center" style="background-image: url('P-GitHub/Banner/Banner.png');">
+        <section id="home" class="relative h-[50vh] bg-cover bg-center flex items-center justify-center" style="background-image: url('https://gold18udon.github.io/P-GitHub/Banner/Banner.png');">
             <div class="absolute inset-0 bg-black bg-opacity-50"></div>
             <div class="relative text-center text-white p-6 z-10">
                 <h2 class="text-3xl md:text-5xl font-bold tracking-tight drop-shadow-lg">รับซื้อตั๋วจำนำทอง</h2>
@@ -293,43 +293,59 @@
             </div>
         </section>
         
+        <!-- NEW CAROUSEL SECTION FOR CUSTOMER PHOTOS -->
         <section id="customer-photos" class="py-16 md:py-20 bg-primary">
             <div class="container mx-auto px-6">
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-dark-red">รีวิวผู้ใช้บริการ</h2>
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-1.png" alt="รีวิวลูกค้า 1" class="w-full h-auto object-cover rounded-md" loading="lazy">
+                <div class="relative max-w-4xl mx-auto carousel-container">
+                    <div id="customer-photos-wrapper" class="carousel-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-1.png" alt="รีวิวลูกค้า 1" loading="lazy">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-2.png" alt="รีวิวลูกค้า 2" loading="lazy">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-3.png" alt="รีวิวลูกค้า 3" loading="lazy">
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-4.png" alt="รีวิวลูกค้า 4" loading="lazy">
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-5.png" alt="รีวิวลูกค้า 5" loading="lazy">
+                        </div>
+                        <!-- Slide 6 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-6.png" alt="รีวิวลูกค้า 6" loading="lazy">
+                        </div>
+                        <!-- Slide 7 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-7.png" alt="รีวิวลูกค้า 7" loading="lazy">
+                        </div>
+                        <!-- Slide 8 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-8.png" alt="รีวิวลูกค้า 8" loading="lazy">
+                        </div>
+                        <!-- Slide 9 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-9.png" alt="รีวิวลูกค้า 9" loading="lazy">
+                        </div>
+                        <!-- Slide 10 -->
+                        <div class="carousel-slide">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review/rw-10.png" alt="รีวิวลูกค้า 10" loading="lazy">
+                        </div>
                     </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-2.png" alt="รีวิวลูกค้า 2" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-3.png" alt="รีวิวลูกค้า 3" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-4.png" alt="รีวิวลูกค้า 4" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-5.png" alt="รีวิวลูกค้า 5" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-6.png" alt="รีวิวลูกค้า 6" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-7.png" alt="รีวิวลูกค้า 7" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-8.png" alt="รีวิวลูกค้า 8" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-9.png" alt="รีวิวลูกค้า 9" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-lg">
-                        <img src="P-GitHub/Review/rw-10.png" alt="รีวิวลูกค้า 10" class="w-full h-auto object-cover rounded-md" loading="lazy">
-                    </div>
+                    <button id="prev-customer-photo-slide" class="carousel-button prev">❮</button>
+                    <button id="next-customer-photo-slide" class="carousel-button next">❯</button>
                 </div>
             </div>
         </section>
+        <!-- END OF NEW CAROUSEL SECTION -->
 
         <section id="why-us" class="py-16 md:py-20 bg-secondary">
             <div class="container mx-auto px-6">
@@ -373,7 +389,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">รวดเร็วทันใจบริการดีมากค่ะ ทองชิ้นเล็กๆน้อยๆพี่เขาก็มาปิดให้ถึงที่เลยค่ะ</p>
                         <div class="flex items-center mt-auto">
-                            <img src="P-GitHub/Photo/P-1.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <img src="https://gold18udon.github.io/P-GitHub/Photo/P-1.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.อุดรธานี</p>
                         </div>
                     </div>
@@ -383,7 +399,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">ไม่มีอะไรจะแนะนำค่ะ แต่จะขอบอกว่าขอบคุณจากใจในฐานะผู้ใช้บริการของพี่ค่ะ</p>
                         <div class="flex items-center mt-auto">
-                            <img src="P-GitHub/Photo/P-2.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <img src="https://gold18udon.github.io/P-GitHub/Photo/P-2.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองบัวลำภู</p>
                         </div>
                     </div>
@@ -393,7 +409,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">พนักงานน่ารัก เป็นกันเองพูดจาดีมากๆค่ะ</p>
                         <div class="flex items-center mt-auto">
-                            <img src="P-GitHub/Photo/P-3.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                            <img src="https://gold18udon.github.io/P-GitHub/Photo/P-3.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.ขอนแก่น</p>
                         </div>
                     </div>
@@ -403,7 +419,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">ประทับใจในการบริการมากครับ พูดจาดี ให้คำแนะนำเยี่ยม แถมยังมาดูแลให้ถึงที่ สุดยอดครับ</p>
                         <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/P-4.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                           <img src="https://gold18udon.github.io/P-GitHub/Photo/P-4.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.หนองคาย</p>
                         </div>
                     </div>
@@ -413,7 +429,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">มาไวและเร็ว ตรงเวลานัด บริการเยี่ยมค่ะ ใครมองหาร้านอยู่แนะนำเลยค่ะ ไม่ผิดหวังแน่นอน</p>
                         <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/P-5.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                           <img src="https://gold18udon.github.io/P-GitHub/Photo/P-5.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.สกลนคร</p>
                         </div>
                     </div>
@@ -423,7 +439,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">ประทับใจมากค่ะ สะดวกและรวดเร็วมาก</p>
                         <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/P-6.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                           <img src="https://gold18udon.github.io/P-GitHub/Photo/P-6.png" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.เลย</p>
                         </div>
                     </div>
@@ -433,7 +449,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">ให้ราคาดีที่สุดเท่าที่เคยถามมาเลยค่ะ</p>
                         <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/P-7.jpg" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                           <img src="https://gold18udon.github.io/P-GitHub/Photo/P-7.jpg" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.ชัยภูมิ</p>
                         </div>
                     </div>
@@ -443,7 +459,7 @@
                         </div>
                         <p class="text-gray-600 mb-4 flex-grow">มาไวมากครับ ขนาดเป็นงานเล็กๆ น้อยๆ ยังสละเวลามาดูแลให้ถึงที่เลย บริการดีเยี่ยมจริงๆ ครับ</p>
                         <div class="flex items-center mt-auto">
-                           <img src="P-GitHub/Photo/P-8.jpg" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
+                           <img src="https://gold18udon.github.io/P-GitHub/Photo/P-8.jpg" alt="Avatar" class="w-10 h-10 rounded-full mr-3">
                             <p class="font-semibold text-gray-700">- คุณลูกค้า จ.มหาสารคาม</p>
                         </div>
                     </div>
@@ -457,49 +473,49 @@
                 <div class="relative max-w-4xl mx-auto carousel-container">
                     <div id="photo-carousel-wrapper" class="carousel-wrapper">
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw1.png" alt="รีวิวไถ่ถอนเสร็จ 1">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw1.png" alt="รีวิวไถ่ถอนเสร็จ 1">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw2.png" alt="รีวิวไถ่ถอนเสร็จ 2">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw2.png" alt="รีวิวไถ่ถอนเสร็จ 2">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw3.png" alt="รีวิวไถ่ถอนเสร็จ 3">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw3.png" alt="รีวิวไถ่ถอนเสร็จ 3">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw4.png" alt="รีวิวไถ่ถอนเสร็จ 4">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw4.png" alt="รีวิวไถ่ถอนเสร็จ 4">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw5.png" alt="รีวิวไถ่ถอนเสร็จ 5">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw5.png" alt="รีวิวไถ่ถอนเสร็จ 5">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw6.png" alt="รีวิวไถ่ถอนเสร็จ 6">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw6.png" alt="รีวิวไถ่ถอนเสร็จ 6">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw7.png" alt="รีวิวไถ่ถอนเสร็จ 7">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw7.png" alt="รีวิวไถ่ถอนเสร็จ 7">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw8.png" alt="รีวิวไถ่ถอนเสร็จ 8">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw8.png" alt="รีวิวไถ่ถอนเสร็จ 8">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw9.png" alt="รีวิวไถ่ถอนเสร็จ 9">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw9.png" alt="รีวิวไถ่ถอนเสร็จ 9">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw10.png" alt="รีวิวไถ่ถอนเสร็จ 10">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw10.png" alt="รีวิวไถ่ถอนเสร็จ 10">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw11.png" alt="รีวิวไถ่ถอนเสร็จ 11">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw11.png" alt="รีวิวไถ่ถอนเสร็จ 11">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw12.png" alt="รีวิวไถ่ถอนเสร็จ 12">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw12.png" alt="รีวิวไถ่ถอนเสร็จ 12">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw13.png" alt="รีวิวไถ่ถอนเสร็จ 13">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw13.png" alt="รีวิวไถ่ถอนเสร็จ 13">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw14.png" alt="รีวิวไถ่ถอนเสร็จ 14">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw14.png" alt="รีวิวไถ่ถอนเสร็จ 14">
                         </div>
                         <div class="carousel-slide">
-                            <img src="P-GitHub/Review2/Rw15.png" alt="รีวิวไถ่ถอนเสร็จ 15">
+                            <img src="https://gold18udon.github.io/P-GitHub/Review2/Rw15.png" alt="รีวิวไถ่ถอนเสร็จ 15">
                         </div>
                     </div>
                     <button id="prev-photo-slide" class="carousel-button prev">❮</button>
@@ -533,7 +549,7 @@
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">สิทธิพิเศษที่คุณจะได้รับ</h2>
                 <div class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-center justify-center relative vertical-divider">
                     <div class="md:w-1/2 flex justify-center mb-8 md:mb-0 md:pr-6">
-                        <img src="P-GitHub/Banner/Bn2.png" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full max-w-sm md:max-w-none">
+                        <img src="https://gold18udon.github.io/P-GitHub/Banner/Bn2.png" alt="สิทธิพิเศษบริการรับซื้อตั๋วจำนำทอง" class="rounded-lg shadow-xl w-full max-w-sm md:max-w-none">
                     </div>
                     <div class="md:w-1/2 md:pl-6">
                         <div class="space-y-6">
@@ -596,6 +612,7 @@
     </button>
 
     <script>
+        // Appraisal Form Logic
         const appraisalForm = document.getElementById('appraisal-form');
         if (appraisalForm) {
             appraisalForm.addEventListener('submit', (e) => {
@@ -623,6 +640,7 @@
             });
         }
 
+        // Mobile Menu Logic
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         if (mobileMenuButton && mobileMenu) {
@@ -631,6 +649,7 @@
             });
         }
 
+        // Back to Top Button Logic
         const toTopButton = document.getElementById('to-top-button');
         if (toTopButton) {
             window.onscroll = () => {
@@ -645,26 +664,66 @@
             });
         }
 
-        const carouselWrapper = document.getElementById('photo-carousel-wrapper');
-        const prevButton = document.getElementById('prev-photo-slide');
-        const nextButton = document.getElementById('next-photo-slide');
-        if (carouselWrapper && prevButton && nextButton) {
-            const slides = carouselWrapper.querySelectorAll('.carousel-slide');
-            let currentIndex = 0;
-            function showSlide(index) {
-                if (slides.length === 0) return;
-                currentIndex = (index + slides.length) % slides.length;
-                const offset = -currentIndex * 100;
-                carouselWrapper.style.transform = `translateX(${offset}%)`;
+        // --- Carousel Logic for "รีวิวไถ่ถอนเสร็จ" ---
+        const photoCarouselWrapper = document.getElementById('photo-carousel-wrapper');
+        const prevPhotoButton = document.getElementById('prev-photo-slide');
+        const nextPhotoButton = document.getElementById('next-photo-slide');
+        if (photoCarouselWrapper && prevPhotoButton && nextPhotoButton) {
+            const photoSlides = photoCarouselWrapper.querySelectorAll('.carousel-slide');
+            let photoCurrentIndex = 0;
+
+            function showPhotoSlide(index) {
+                if (photoSlides.length === 0) return;
+                photoCurrentIndex = (index + photoSlides.length) % photoSlides.length;
+                const offset = -photoCurrentIndex * 100;
+                photoCarouselWrapper.style.transform = `translateX(${offset}%)`;
             }
-            prevButton.addEventListener('click', () => {
-                showSlide(currentIndex - 1);
+
+            prevPhotoButton.addEventListener('click', () => {
+                showPhotoSlide(photoCurrentIndex - 1);
             });
-            nextButton.addEventListener('click', () => {
-                showSlide(currentIndex + 1);
+
+            nextPhotoButton.addEventListener('click', () => {
+                showPhotoSlide(photoCurrentIndex + 1);
             });
-            showSlide(0);
+            
+            setInterval(() => {
+                showPhotoSlide(photoCurrentIndex + 1);
+            }, 3000);
+
+            showPhotoSlide(0);
+        }
+
+        // --- Carousel Logic for "รีวิวผู้ใช้บริการ" ---
+        const customerPhotosWrapper = document.getElementById('customer-photos-wrapper');
+        const prevCustomerPhotoButton = document.getElementById('prev-customer-photo-slide');
+        const nextCustomerPhotoButton = document.getElementById('next-customer-photo-slide');
+        if (customerPhotosWrapper && prevCustomerPhotoButton && nextCustomerPhotoButton) {
+            const customerPhotoSlides = customerPhotosWrapper.querySelectorAll('.carousel-slide');
+            let customerPhotoCurrentIndex = 0;
+
+            function showCustomerPhotoSlide(index) {
+                if (customerPhotoSlides.length === 0) return;
+                customerPhotoCurrentIndex = (index + customerPhotoSlides.length) % customerPhotoSlides.length;
+                const offset = -customerPhotoCurrentIndex * 100;
+                customerPhotosWrapper.style.transform = `translateX(${offset}%)`;
+            }
+
+            prevCustomerPhotoButton.addEventListener('click', () => {
+                showCustomerPhotoSlide(customerPhotoCurrentIndex - 1);
+            });
+
+            nextCustomerPhotoButton.addEventListener('click', () => {
+                showCustomerPhotoSlide(customerPhotoCurrentIndex + 1);
+            });
+
+            setInterval(() => {
+                showCustomerPhotoSlide(customerPhotoCurrentIndex + 1);
+            }, 3500); // Set a slightly different interval to avoid simultaneous sliding
+
+            showCustomerPhotoSlide(0);
         }
     </script>
 </body>
 </html>
+
